@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shimmer-w60 {
+  @apply w-3/5 mt-2.5 h-[15px] bg-bio;
+}
+
+.shimmer-w40 {
+  @apply w-2/5 mt-2.5 h-[15px] bg-bio;
+}
+
+.shimmer-w20 {
+  @apply w-1/5 mt-1 h-[15px] bg-bio;
+}
+
+.input {
+  @apply rounded-full border  border-stone-200 text-sm 
+  transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-blue-400 md:px-6 md:py-3;
+}
